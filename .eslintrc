@@ -1,0 +1,14 @@
+{
+    "extends": "airbnb-base",
+    "parser": "babel-eslint",
+    "overrides": [
+        {
+            "files": [
+                "main.js"
+            ],
+            "rules": {
+                "require-jsdoc": "off"
+            }
+        }
+    ]
+}
